@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # Importamos las librerias a usar#
 
 import pandas as pd

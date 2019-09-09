@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/Users/evankiske/Documents/FinalProject",
+  "password": false,
+  "pid": 16395,
+  "port": 8888,
+  "secure": false,
+  "token": "2d25df7f8ca38dc842f319cc164dc672c23b4a83088be93b",
+  "url": "http://localhost:8888/"
+}

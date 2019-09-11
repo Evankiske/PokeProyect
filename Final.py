@@ -88,9 +88,10 @@ r2 = r2_score(y_test, y_pred)
 #print('RMSE   : %0.2f ' % rmse)
 #print('R2     : %0.2f ' % r2)
 
-print('Pick a First Pokemon Betwen 1-809')
+print('Pokemon Battle Simulator:')
+print('Choose a Pokemon Between 1-809:')
 First = int(input())
-print('Pick a Second Pokemon Betwen 1-809')
+print('Choose a Second Pokemon Between 1-809:')
 Second = int(input())
 
 simple_list = [[First, Second]]
@@ -100,4 +101,5 @@ battle2 = norm(test4)
 pred = clf_rfc.predict(battle2)
 test4["Winner"] = [test4["First_pokemon"][i] if pred[i] == 0 else test4["Second_pokemon"][i] for i in range(len(pred))]
 final1 = test4[cols].replace(poke.Name)
-print(final1.tail(1))
+print(final1.iloc[10000]['First_pokemon'] + ' vs ' + final1.iloc[10000]['Second_pokemon'])
+print('Winner: ' + final1.iloc[10000]['Winner'])

@@ -1,4 +1,4 @@
-# Importamos las librerias a usar#
+# Importamos las librerias a usar
 
 import pandas as pd
 import numpy as np

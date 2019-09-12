@@ -1,0 +1,25 @@
+#Pokemon Battle Simulator
+
+##Overview
+
+El proyecto Trata de recrear Batallas Pokemon 1v1, para facilitar la creacion de Equipos en el ambito competitivo,
+ya que es una rama creciento dentro de los E-Sports.
+
+##Introduction to the case
+
+El simulador lo que intenta, analizando combates individuales de pokemon, es predecir ganadores de combates para las
+nuevas generaciones y que tengamos un modelo que nos permita predecir los resultados, sin importar cuantos nuevos
+pokemons se agreguen al rooster.
+
+
+##Steps performed
+
+Se creo un DataFrame con informacion basica de los pokemon haciendo webscrap de varios sitios especializados en pokemon
+Se Obtuvo un DataFrame de la simulacion de Batallas que se uso como base para las predicciones
+Se limpio y modifico el DataFrame para ajustarlo al que se tiene
+Aplicacion de modelos de ML para la prediccion de Resultados
+
+##Conclusions
+
+Como conlcusion tenemos que se puede generar el numero de victorias de cualquier pokemon, por lo cual el proposito
+se cumple y tenemos la capacidad de crear mejores teams para las batallas a futuro
